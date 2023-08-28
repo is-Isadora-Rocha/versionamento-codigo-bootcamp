@@ -14,13 +14,54 @@ Repositório para armazenar resumos sobre Git e GitHub do curso "Versionamento d
 | -----| ------- |
 | Gravando Alterações no Repositório Local | [Resumos]() |
 
+### Pull dos arquivos para o repositório
 ```
-git init 
-git commit -m ""
-git add .
-git status
-git push
-git pull
+$ git init 
+$ git add .
+$ git status
+$ git commit -m ""
+$ git push
+$ git pull
 ```
 
+### Desfazer um git init
+Caso tenha feito um git init em um diretório errado
+```
+$ rm -rf .git
+```
+### Restaurar um arquivo local
+Caso tenha modificado algum arquivo e queira desfazer essa alteração
+```
+$ git restore [nome_do_arquivo]
+```
 
+### Histórico de commits
+```
+$ git log
+```
+
+### Pull dos arquivos para o repositório
+```
+$ git init 
+$ git add .
+$ git status
+$ git commit -m ""
+$ git push
+$ git pull
+```
+
+### Desfazer um git init
+Caso tenha feito um git init em um diretório errado
+```
+$ rm -rf .git
+```
+### Restaurar um arquivo local
+Caso tenha modificado algum arquivo e queira desfazer essa alteração
+```
+$ git restore [nome_do_arquivo]
+```
+
+### Histórico de commits
+```
+$ git log
+```
