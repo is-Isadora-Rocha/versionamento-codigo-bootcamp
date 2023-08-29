@@ -12,7 +12,7 @@ Repositório para armazenar resumos sobre Git e GitHub do curso "Versionamento d
 
 | Aulas | Resumos |
 | -----| ------- |
-| Gravando Alterações no Repositório Local | [Resumos]() |
+| Anotações sobre Git e GitHub | [Notion](https://bootcamp-java-isa.notion.site/GIT-2d8f9571bb674c838e413c677502a584?pvs=4) |
 
 ### Pull dos arquivos para o repositório
 ```
@@ -40,28 +40,8 @@ $ git restore [nome_do_arquivo]
 $ git log
 ```
 
-### Pull dos arquivos para o repositório
+### Editar nome do commit
 ```
-$ git init 
-$ git add .
-$ git status
-$ git commit -m ""
-$ git push
-$ git pull
+$ git commit -amend -m "nova mensagem de commit"
 ```
 
-### Desfazer um git init
-Caso tenha feito um git init em um diretório errado
-```
-$ rm -rf .git
-```
-### Restaurar um arquivo local
-Caso tenha modificado algum arquivo e queira desfazer essa alteração
-```
-$ git restore [nome_do_arquivo]
-```
-
-### Histórico de commits
-```
-$ git log
-```
