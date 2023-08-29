@@ -45,3 +45,19 @@ $ git log
 $ git commit -amend -m "nova mensagem de commit"
 ```
 
+### Criar, Visualizar e Deletar uma branch
+Criar uma ramificação
+```
+$ git checkout -b nome_branch
+```
+Visualizar as ramificações
+```
+$ git branch
+```
+
+Deletar uma ramificação
+```
+$ git checkout -d nome_branch
+```
+
+
