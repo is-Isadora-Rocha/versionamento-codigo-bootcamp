@@ -10,10 +10,6 @@ Repositório para armazenar resumos sobre Git e GitHub do curso "Versionamento d
 
 ## 💻 Resumos das Aulas
 
-| Aulas | Resumos |
-| -----| ------- |
-| Anotações sobre Git e GitHub | [Notion](https://bootcamp-java-isa.notion.site/GIT-2d8f9571bb674c838e413c677502a584?pvs=4) |
-
 ### Pull dos arquivos para o repositório
 ```
 $ git init 
