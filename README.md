@@ -60,4 +60,7 @@ Deletar uma ramificação
 $ git checkout -d nome_branch
 ```
 
-
+### Clonar somente uma branch específica
+```
+$ git clone https://... --branch nome-branch --single-branch
+```
