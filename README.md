@@ -60,3 +60,8 @@ $ git checkout -d nome_branch
 ```
 $ git clone https://... --branch nome-branch --single-branch
 ```
+
+### o git irá sempre iniciar o repositório com o branch main como padrão.
+```
+$ git config --global init.defaultBranch main
+```
